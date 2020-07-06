@@ -1,7 +1,7 @@
 import React from 'react'
-import { Grid } from 'semantic-ui-react'
-import { Card, Icon } from 'semantic-ui-react'
+import { Card, Icon, Grid } from 'semantic-ui-react'
 import "../../Styles/Portfolio.css"
+
 
 const extra1 = (
     <a href="https://github.com/Bmcart3/Something-Different" target="blank">
@@ -32,7 +32,7 @@ const Portfolio = () => (
     <Grid.Row>
       <Grid.Column width={3}>
       </Grid.Column>
-      <Grid.Column width={10} style={{display: "flex", justifyContent: "center", flexFlow: "row wrap"}}>
+      <Grid.Column className="test" width={10} style={{display: "flex", justifyContent: "center", flexFlow: "row wrap"}}>
       <Card className="portfolioMargin"
             image={require("../../images/SomethingDifferent.png")}
             header='Something Different Project'

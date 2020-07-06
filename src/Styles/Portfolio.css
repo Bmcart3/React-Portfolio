@@ -1,3 +1,9 @@
 .portfolioMargin {
     margin: 10px !important;
 }
+
+.test {
+    padding: .7rem;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right,#13547a, #80d0c7);
+}
