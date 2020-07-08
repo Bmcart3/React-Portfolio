@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.684e0ff7.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.5a98d9cc.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.5a98d9cc.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
+    "static/js/2.b8e50fae.chunk.js": "/react-portfolio/static/js/2.b8e50fae.chunk.js",
+    "static/js/2.b8e50fae.chunk.js.map": "/react-portfolio/static/js/2.b8e50fae.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.7b00dcd9a119bcb77f391451e140d551.js": "/react-portfolio/precache-manifest.7b00dcd9a119bcb77f391451e140d551.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.684e0ff7.chunk.css.map": "/react-portfolio/static/css/main.684e0ff7.chunk.css.map",
+    "static/js/2.b8e50fae.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b8e50fae.chunk.js.LICENSE.txt",
+    "static/media/SomethingDifferent.png": "/react-portfolio/static/media/SomethingDifferent.34fcc832.png",
+    "static/media/WeatherDashboard.PNG": "/react-portfolio/static/media/WeatherDashboard.c2d0629e.PNG",
+    "static/media/dayPlanner.PNG": "/react-portfolio/static/media/dayPlanner.f546052f.PNG",
+    "static/media/profilepic.jpg": "/react-portfolio/static/media/profilepic.5617459c.jpg",
+    "static/media/project2.PNG": "/react-portfolio/static/media/project2.3d787d9a.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.213b1880.js",
+    "static/js/2.b8e50fae.chunk.js",
+    "static/css/main.684e0ff7.chunk.css",
+    "static/js/main.5a98d9cc.chunk.js"
+  ]
+}
