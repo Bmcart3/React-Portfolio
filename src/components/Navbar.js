@@ -26,13 +26,6 @@ export default class Navbar extends Component {
           active={activeItem === "Portfolio"}
           onClick={this.handleItemClick}
         ></Menu.Item>
-        <Menu.Item
-          as={Link}
-          name="Contact"
-          to="/contact"
-          active={activeItem === "Contact"}
-          onClick={this.handleItemClick}
-        ></Menu.Item>
       </Menu>
     );
   }

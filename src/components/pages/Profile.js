@@ -1,11 +1,11 @@
 import React from "react";
-import { Container, Image } from "semantic-ui-react";
+import { Container, Image, Segment } from "semantic-ui-react";
 import ProfilePic from "../../images/profilepic.jpg";
 import "../../Styles/Portfolio.css";
 
 const About = () => (
-  <Container text>
-    <div className="test">
+  <Container text className="bg">
+    <div>
       <Image
         src={ProfilePic}
         size="medium"
@@ -28,6 +28,36 @@ const About = () => (
         end or back end role. I appreciate you taking a look at my profile and I
         hope you venture over the to the contact page to get in touch!
       </p>
+    </div>
+    <div className="bg" >
+        <h2>Contact Information</h2>
+        <p>
+          <a
+            href="../../images/BenCartWebDev.pdf"
+            target="_blank"
+            style={{ color: "blue" }}
+          >
+            Resume
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://github.com/Bmcart3"
+            target="_blank"
+            style={{ color: "blue" }}
+          >
+            GitHub
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/ben-cart"
+            target="_blank"
+            style={{ color: "blue" }}
+          >
+            LinkedIn
+          </a>
+        </p>
     </div>
   </Container>
 );

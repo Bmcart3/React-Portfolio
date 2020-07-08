@@ -32,33 +32,29 @@ const Portfolio = () => (
     <Grid.Row>
       <Grid.Column width={3}>
       </Grid.Column>
-      <Grid.Column className="test" width={10} style={{display: "flex", justifyContent: "center", flexFlow: "row wrap"}}>
+      <Grid.Column className="bg" width={10} style={{display: "flex", justifyContent: "center", flexFlow: "row wrap"}}>
       <Card className="portfolioMargin"
             image={require("../../images/SomethingDifferent.png")}
             header='Something Different Project'
-            meta='Friend'
-            description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
+            description='App that allows the user to search for hobbies and receive wikipedia information and youtube tutorials.'
             extra={extra1}
         />
         <Card className="portfolioMargin"
             image={require("../../images/project2.PNG")}
             header='Asking for a Friend'
-            meta='Friend'
-            description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
+            description='App that allows user to browse questions, post questions, and also post answers to other users questions.'
             extra={extra2}
         />
         <Card className="portfolioMargin"
             image={require("../../images/dayPlanner.PNG")}
             header='Day Planner'
-            meta='Friend'
-            description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
+            description='Day Planner is an app that is simply used to plan out your workday. The hour blocks change color based on current time.'
             extra={extra3}
         />
         <Card className="portfolioMargin"
             image={require("../../images/WeatherDashboard.PNG")}
             header='Weather Dashboard'
-            meta='Friend'
-            description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
+            description='Simple weather app that allows the user to input a location and receive current weather as well as forecast weather.'
             extra={extra4}
         />
       </Grid.Column>
